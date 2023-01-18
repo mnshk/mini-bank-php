@@ -1,0 +1,68 @@
+<style>
+body {
+    background:#222;
+    color:#fff;
+}
+hr {
+    border-top: 1px solid #555;
+}
+.btn-blue{
+    background: rgb(95,157,222);
+    color:white;
+}
+.btn-ylo{
+    background: #555;
+}
+.btn-red{
+    background:rgb(224,106,85);
+    color:white;
+}
+input, select{
+    color:#fff;
+    border:2px solid #444;
+    background:#333;
+}
+input:-webkit-autofill{
+    -webkit-text-fill-color:#fff;
+    box-shadow:inset 0 0 0 20px #333;
+}
+.card {
+    border: 1px solid #555;
+    box-shadow:0 0 10px #000;
+}
+.window{
+    border: 4px solid #555;
+    box-shadow:0 0 10px #000;
+    overflow:hidden;
+}
+.window .title{
+    background: #555;
+}
+.opt{
+    background:#333;
+    color:#fff;
+}
+.opt:hover{
+    background:#555; 
+}
+.err{
+    background: #222;
+}
+.err-ylo{
+    box-shadow: 0 8px 10px -4px #000, inset 0 0 8px rgb(252,186,3);
+}
+.err-grn{
+    box-shadow:inset 0 0 8px rgb(31,184,85), 0 8px 10px -4px #000;
+}
+.history div{
+    background:#333;
+    color:#fff;
+}
+.history div:hover{
+    background: #444;
+    color:#fff;
+}
+.loading{
+    box-shadow:0 0 10px #000,inset 0 0 10px #000;
+}
+</style>
